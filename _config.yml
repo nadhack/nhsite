@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Newbury And District Hackspace
+name: NADHack
 
 # Name of the author
-author: NADHack
+author: 
 
 # Short bio or description (displayed in the header)
-#description: A Hackspace Foundation makers space
+description: Newbury And District Hackspace
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/NADHack-logo.jpg
