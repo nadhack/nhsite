@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% include aims.md %}
+{% capture aims_include %}{% include aims.md %}{% endcapture %}
+{{ aims_include | markdownify }}
 
 <div class="posts">
   {% for post in paginator.posts %}
