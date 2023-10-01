@@ -1,0 +1,1 @@
+- To promte and encourage technical, scientific, creative and artistic skills through collaboration and education in Newbury and the surrounding areas
