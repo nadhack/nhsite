@@ -8,13 +8,13 @@ layout: default
 <h2>Events</h2>
 <div class="posts">
   {% for event in site.events %}
-    <article class="post"></article>
+    <article class="post">
       <h3>{{ event.title }}</h3>
       <div class="entry">
         {{ event.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ event.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}/events/{{ event.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
