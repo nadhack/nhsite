@@ -103,6 +103,6 @@ exclude:
 collections:
   events:
     output: true
-    permalink: /events/:path/
-    title: Events
+    #permalink: /events/:path/
+    #title: Events
 
