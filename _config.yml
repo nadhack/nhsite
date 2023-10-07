@@ -100,3 +100,9 @@ exclude:
   - README.md
   - CNAME
 
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+    title: Events
+
