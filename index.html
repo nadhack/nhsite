@@ -6,15 +6,25 @@ layout: default
 {{ aims_include | markdownify }}
 
 <h2>Events</h2>
-{% for event in site.events %}
-  <h3>{{ event.title }}</h3>
-{% endfor %}
+<div class="posts">
+  {% for event in site.events %}
+    <article class="post"></article>
+      <h3>{{ event.title }}</h3>
+      <div class="entry">
+        {{ event.excerpt }}
+      </div>
 
+      <a href="{{ site.baseurl }}{{ event.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+
+<h2>Blog></h2>
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
-        <h2>{{ post.title }}</h2>
+        <h3>{{ post.title }}</h3>
 
         <div>
           <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
