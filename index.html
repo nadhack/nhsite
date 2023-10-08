@@ -10,6 +10,11 @@ layout: default
   {% for event in site.events %}
     <article class="post">
       <h3>{{ event.title }}</h3>
+
+      <div>
+        <p class="post_date">{{ event.date | date: "%B %e, %Y" }}</p>
+      </div>
+
       <div class="entry">
         {{ event.excerpt }}
       </div>
