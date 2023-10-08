@@ -1,7 +1,7 @@
 ---
 layout: event
-title:  Thatcham Xmas fair 2023
-date:   2023-12-01
+title: Thatcham Xmas fair 2023
+event_date: December 1, 2023
 categories: [Xmas,Fair]
 excerpt: We will be at the Thatcham Christmas fair this year.
 ---

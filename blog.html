@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<a href="{{ site.baseurl }}/blog"><h2>Blog</h2></a>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h3>{{ post.title }}</h3>
+
+        <div>
+          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+        </div>
+      </a>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>

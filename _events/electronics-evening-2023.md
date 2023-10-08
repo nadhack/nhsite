@@ -1,7 +1,7 @@
 ---
 layout: event
-title:  Electronics evening
-date:   2023-12-01
+title: Electronics evening
+event_date: December 10, 2023
 categories: [electronics,soldering,tutorial]
 excerpt: We will be running an electronics tutorial evening.
 ---

@@ -5,15 +5,17 @@ layout: default
 {% capture aims_include %}{% include aims.md %}{% endcapture %}
 {{ aims_include | markdownify }}
 
-<h2>Events</h2>
+<a href="{{ site.baseurl }}/events"><h2>Events</h2></a>
 <div class="posts">
-  {% for event in site.events %}
+  {% for event in site.events limit:2 %}
     <article class="post">
-      <h3>{{ event.title }}</h3>
+      <a href="{{ site.baseurl }}{{ event.url }}">
+        <h3>{{ event.title }}</h3>
 
-      <div>
-        <p class="post_date">{{ event.date: "%B %e, %Y" }}</p>
-      </div>
+        <div>
+          <p class="post_date">{{ event.event_date }}</p>
+        </div>
+      </a>
 
       <div class="entry">
         {{ event.excerpt }}
@@ -24,9 +26,9 @@ layout: default
   {% endfor %}
 </div>
 
-<h2>Blog</h2>
+<a href="{{ site.baseurl }}/blog"><h2>Blog</h2></a>
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in paginator.posts limit:2 %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <h3>{{ post.title }}</h3>
