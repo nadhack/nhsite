@@ -6,4 +6,4 @@ categories: [Xmas,Fair]
 excerpt: We will be at the Thatcham Christmas fair this year. Test.
 ---
 
-We will be at the fair again this year - bringing along lorem ipsum
+We will be at the fair again this year - bringing along lorem ipsum [nadhack test site](https://test.nadhack.co.uk/)
