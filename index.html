@@ -7,7 +7,7 @@ layout: default
 
 <a href="{{ site.baseurl }}/events"><h2>Events</h2></a>
 <div class="posts">
-  {% for event in site.events limit:2 %}
+  {% for event in site.events limit:10 %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ event.url }}">
         <h3>{{ event.title }}</h3>
@@ -28,7 +28,7 @@ layout: default
 
 <a href="{{ site.baseurl }}/blog"><h2>Blog</h2></a>
 <div class="posts">
-  {% for post in paginator.posts limit:2 %}
+  {% for post in paginator.posts limit:10 %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <h3>{{ post.title }}</h3>
