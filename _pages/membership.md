@@ -5,7 +5,7 @@ permalink: /membership/
 ---
 
 
-All membership fees are discretionary. It costs us approximately £25/month/member and that is our guidline monthly membership for members.We list as a "basic member" below as a guidline for those interested in the hackspace who feel that their own time and financial constraints make the £25/month rate inappropriate for their personel situation. Some members may pay less than £25/month and some members may pay more. We ask potential members to assess the value of their own situation, consider the costs of running the space and identify a monthly fee that suits them.
+All membership fees are discretionary. It costs us approximately £25/month/member and that is our guidline monthly membership for members.We list as a "basic member" below as a guidline for those interested in the hackspace who feel that their own time and financial constraints make the £25/month rate inappropriate for their personal situation. Some members may pay less than £25/month and some members may pay more. We ask potential members to assess the value of their own situation, consider the costs of running the space and identify a monthly fee that suits them.
 
 | Membership Level | Monthly Fee | Access Key | Accompanied | Comments |
 | --- | --- | --- | --- | --- |
