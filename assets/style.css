@@ -134,7 +134,7 @@ table.layoutTable {
   border: 0px !important;
 }
 
-table.layoutTable tr, td, tr {
+table.layoutTable tr, td, th {
   border: 0px !important;
 }
 
