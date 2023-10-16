@@ -4,4 +4,6 @@ We create, craft, mend, re-purpose, share, teach and learn in a community worksh
 
 Learn about Laser cutting, 3D printing, metal working, electronics, CAD, CAM software and much more.
 
+Members have 24 access 7 days a week to use the equipment.
+
 All are welcome to join.
