@@ -10,4 +10,4 @@ Come and see some of our members projects and have a go at driving a radio contr
 
 ![](/nhsite/images/family-fun-23.png)
 
-![](/nhsite/images/dday80.png)
+
