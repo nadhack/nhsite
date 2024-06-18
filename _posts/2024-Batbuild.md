@@ -2,7 +2,7 @@
 layout: post
 title: Bat Detector Building
 categories: [Workshop]
-excerpt: NadHack Attended the memorial event organised by the volunteers at the control tower.
+excerpt: Bat Detector building workshop using smt.
 ---
 
 Bat Detector building workshop using smt.
