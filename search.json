@@ -9,5 +9,14 @@
       "category" : "{{ post.categories | join: ', '}}",
       "date"     : "{{ post.date | date: "%B %e, %Y" }}"
     } {% unless forloop.last %},{% endunless %}
+  {% endfor %},
+  {% for event in site.events %}
+    {
+
+      "title"    : "{% if event.title != "" %}{{ event.title | escape }}{% else %}{{ event.excerpt | strip_html |  escape | strip }}{%endif%}",
+      "url"      : "{{ site.baseurl }}{{ event.url }}",
+      "category" : "{{ event.categories | join: ', '}}",
+      "date"     : "{{ event.date | date: "%B %e, %Y" }}"
+    } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
