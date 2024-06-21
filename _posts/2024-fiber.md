@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fiberglass Workshop
-categories: [Workshop]
+categories: [External-Event]
 excerpt: Demostration on how to work with fiberglass.
 ---
 
