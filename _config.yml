@@ -101,6 +101,8 @@ exclude:
   - CNAME
 
 collections:
+  posts:
+    output: true
   events:
     output: true
 
