@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-![](/nhsite/images/nadhack-building.png)
+![](/images/nadhack-building.png)
 
 ## How to find us
 
 We are located in The Pavillion on the corner of The Moors and Lower Way in Thatcham. RG19 3AZ.
 
-![](/nhsite/images/find-us.png)
+![](/images/find-us.png)
 
 ## Contact us on Facebook or email
 
