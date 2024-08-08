@@ -4,7 +4,7 @@ layout: default
 
 <a href="{{ site.baseurl }}/posts"><h2>Posts</h2></a>
 <div class="posts">
-  {% for post in site.posts limit:2 %}
+  {% for post in site.posts limit:30 %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <h3>{{ post.title }}</h3>
