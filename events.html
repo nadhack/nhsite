@@ -4,7 +4,7 @@ layout: default
 
 <a href="{{ site.baseurl }}/events"><h2>Events</h2></a>
 <div class="posts">
-  {% for event in site.events limit:2 %}
+  {% for event in site.events limit:30 %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ event.url }}">
         <h3>{{ event.title }}</h3>
